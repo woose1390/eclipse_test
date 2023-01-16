@@ -1,0 +1,64 @@
+.btn-wrapper {
+	position : absolute;
+	width : 400px;
+	left : 50%;
+	top : 50%;
+	transform : translate(-50%, -50%);
+}
+
+.okbtn {
+	width : 400px;
+	height : 60px;
+	font-size : 25px;
+}
+
+.box-wrapper {
+	font-size : 20px;
+	position : absolute;
+	width : 600px;
+	left : 50%;
+	top : 30%;
+	transform : translate(-50%, -30%);
+}
+
+#title_box {
+	display : inline-block;
+	width : 400px;
+	height : auto;
+	border : 2px solid rgb(11, 127, 173);
+}
+
+#input_box {
+	display : inline-block;
+	width : 400px;
+	height : auto;
+	border : 2px solid rgb(11, 127, 173);
+}
+
+#content_box {
+	display : inline-block;
+	width : 400px;
+	height : 300px;
+	border : 2px solid rgb(11, 127, 173);
+}
+
+#textarea_box {
+	display : inline-block;
+	width : 400px;
+	height : 300px;
+	border : 2px solid rgb(11, 127, 173);
+}
+
+.subbtn-wrapper > form {
+	display : inline-block;
+}
+
+.success-wrapper {
+	position : absolute;
+	width : 400px;
+	left : 50%;
+	top : 30%;
+	transform : translate(-50%, -30%);
+	font-size : 20px;
+	text-align : center;
+}
